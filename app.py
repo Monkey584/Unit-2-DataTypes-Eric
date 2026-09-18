@@ -23,9 +23,7 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-sentence = input()
-if sentence == :
-    i=sentence.split()
-    print('hi')
-else:
-    print('no')
+x=input()
+sentance=x
+if sentance == input():
+    y = sentance.split()
