@@ -23,7 +23,13 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-x=input()
-sentance=x
-if sentance == input():
-    y = sentance.split()
+""" def count_words(sentance):
+    words = sentance.split()
+    return len(words)
+
+user_sentance = input()
+word_count = count_words(user_sentance)
+print(f"{word_count}") """
+
+bill = input("How much was the bill")
+print(int(bill) + 20)
