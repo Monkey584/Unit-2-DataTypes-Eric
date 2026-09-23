@@ -4,17 +4,35 @@ if rain == True:
 else:
     print ("No umbrella") """
 
-age = 66
+""" age = 66
 if age > 65:
     print("senior citizen")
 elif age > 18:
     print("adult")
 else:
     print("child")
-
+ """
 """ has_key = False
 is_magic = True
 if has_key or is_magic:
     print("enter castle")
 else:
     print ("cannot enter") """
+
+""" #needed for test
+#integer
+x = 7
+#float
+y = 3.14
+#boolean
+z = True
+#string
+name = "Steve"
+#lists
+students = ["Natalie", "Steve", "Bob"]
+students.append("Karas")
+print(students[3])
+#print(students.pop(0), students)
+for student in students:
+    if(student == "Bob"):
+        print(student, "Found him!") """
