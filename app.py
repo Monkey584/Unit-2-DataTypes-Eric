@@ -31,5 +31,37 @@ user_sentance = input()
 word_count = count_words(user_sentance)
 print(f"{word_count}") """
 
-bill = input("How much was the bill")
-print(int(bill) + 20)
+""" bill = input("How much was the bill")
+print(int(bill) + 20) """
+
+""" def Number(value):
+    return int(value)
+
+user_value = input()
+x = Number(user_value)
+if x % 2 == 1:
+    print("odd")
+else:
+    print("even") """
+#or
+""" def number(x):
+ if x % 2 == 1:
+     return "odd"
+ else:
+     return "even"
+
+x = int(input("enter a number: "))
+print(f"Your number is {number(x)}.") """
+
+def service(x):
+    if x == "great":
+        return "25%"
+    elif x == "good":
+        return "20%"
+    elif x == "okay":
+        return "15%"
+    else:
+        return "0%"
+
+x = input("How was the service: ")
+print(service(x))
