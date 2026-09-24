@@ -76,5 +76,25 @@ x = input("How was the service: ")
 print(f"{service(x)}") """
 
 
-def factor(x):
-    x % x == 0
+""" def factor(x):
+    factors = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            factors.append(i)
+    return factors
+
+number = int(input("Enter a number: "))
+print(factor(number)) """
+
+
+def factor(x, y):
+    GCF = []
+    for i in range(1, min(x, y) + 1):
+        if x % i == 0:
+            if y % i == 0:
+                GCF.append(i)
+    return GCF
+
+numbers = input("Enter 2 numbers separated by a space: ").split()
+x, y = int(numbers[0]), int(numbers[1])
+print(factor(x, y))
