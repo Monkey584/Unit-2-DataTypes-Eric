@@ -36,3 +36,7 @@ print(students[3])
 for student in students:
     if(student == "Bob"):
         print(student, "Found him!") """
+
+
+x = "this is a test"
+print(x.split(" "))
