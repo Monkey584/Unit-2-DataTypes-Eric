@@ -87,7 +87,7 @@ number = int(input("Enter a number: "))
 print(factor(number)) """
 
 
-def factor(x, y):
+""" def factor(x, y):
     GCF = []
     for i in range(1, min(x, y) + 1):
         if x % i == 0:
@@ -97,4 +97,19 @@ def factor(x, y):
 
 numbers = input("Enter 2 numbers separated by a space: ").split()
 x, y = int(numbers[0]), int(numbers[1])
-print(factor(x, y)[-1])
+print(factor(x, y)[-1]) """
+
+
+import turtle
+from turtle import *
+t = turtle()
+
+t.shape('turtle')
+def spiral(x):
+    for i in range(x):
+        line = 5
+        t.foward(line, 5)
+        line += 5
+    spiral(60)
+
+turtle.done()
