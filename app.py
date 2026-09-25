@@ -97,4 +97,4 @@ def factor(x, y):
 
 numbers = input("Enter 2 numbers separated by a space: ").split()
 x, y = int(numbers[0]), int(numbers[1])
-print(factor(x, y))
+print(factor(x, y)[-1])
