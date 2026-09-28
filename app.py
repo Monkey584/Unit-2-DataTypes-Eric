@@ -102,14 +102,20 @@ print(factor(x, y)[-1]) """
 
 import turtle
 from turtle import *
-t = turtle()
+t=Turtle()
 
 t.shape('turtle')
-def spiral(x):
-    for i in range(x):
-        line = 5
-        t.foward(line, 5)
-        line += 5
-    spiral(60)
+def line(x):
+    t.forward(x)
+    t.rigth(5)
+line(5)
+
+def spiral(irange):
+    for i in range(irange):
+        length = 5
+        t.forward(length)
+        t.right(5)
+        length += 5
+spiral(60)
 
 turtle.done()
