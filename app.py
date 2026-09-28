@@ -96,7 +96,7 @@ def factor(x, y):
     return GCF
 
 numbers = input("Enter 2 numbers separated by a space: ").split()
-x, y = int(numbers[0]), int(numbers[1])s
+x, y = int(numbers[0]), int(numbers[1])
 print(factor(x, y)[-1])
 
 
