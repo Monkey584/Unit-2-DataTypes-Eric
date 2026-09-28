@@ -105,17 +105,17 @@ from turtle import *
 t=Turtle()
 
 t.shape('turtle')
-def line(x):
+def line(x, y):
     t.forward(x)
-    t.rigth(5)
-line(5)
+    t.right(y)
+line(5, 5)
 
 def spiral(irange):
+    length = float(0.2)
     for i in range(irange):
-        length = 5
         t.forward(length)
         t.right(5)
-        length += 5
+        length += float(0.2)
 spiral(60)
 
 turtle.done()
