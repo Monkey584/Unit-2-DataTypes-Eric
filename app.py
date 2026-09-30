@@ -87,7 +87,7 @@ number = int(input("Enter a number: "))
 print(factor(number)) """
 
 
-def factor(x, y):
+""" def factor(x, y):
     GCF = []
     for i in range(1, min(x, y) + 1):
         if x % i == 0:
@@ -97,7 +97,7 @@ def factor(x, y):
 
 numbers = input("Enter 2 numbers separated by a space: ").split()
 x, y = int(numbers[0]), int(numbers[1])
-print(factor(x, y)[-1])
+print(factor(x, y)[-1]) """
 
 
 """ import turtle
